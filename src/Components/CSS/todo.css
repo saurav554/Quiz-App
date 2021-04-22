@@ -1,0 +1,99 @@
+body{
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNCA0NCA0HBwgIBw0HBwcHBw8ICQcNFREWFhUREx8YHSggGBoxJxMVITEhJSkrLi46Fx8zODMsNygtLisBCgoKDQ0NDw0NDisZFRkrKy0rKysrLTcrKystLTctLSsrKysrKysrKysrLS0rKysrNy0rLSstLSsrKysrKysrK//AABEIALwBDAMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAACAQMABwYF/8QAFhABAQEAAAAAAAAAAAAAAAAAAQAR/8QAGQEBAQEBAQEAAAAAAAAAAAAAAgABAwYF/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwD8HLsll2X23xNDLsllMpujlMnlMpuhlMnlEpuhlEnlEpugkUtMolFKzyiTSiWlrNKJNKZRSs0ilokUopQaJJKNFKCRSaUS0pWaRS0SKUUCLNi0cBik0i2lKCRSaRaOAxSbFooDGbTKOPs8pk8uy5vO6GUyeUym6GUy0ymU3WeXZPI5a3QyiTymUWhkW0SKU2UEok0ilFKDRJpG0pQSLaJFopWbFLRIpRygxSaRbSlBilokWilZsW0SLRygxZsUooDFmxbTjNozYtHAYzY0Ur7XLsnlMubzmhl2TymU3QymTymU3QymTymU3WaUSeUSi0IpNKWlKCRy0SKUUBIpNKJRSs0ok0i2lKCRZpFKKUEik0i0coRZtGijNi2iRS05WbGbFo4DFJsW0oCRZsWjgMUmxo4+4y7J5TLm81oZTJ5TKWhlMmlEotDKJPKJTZWaUSeUSilBIpNKJRSs0ok0jaUoJFtEilHGaUSaRSilBizYpacBik2LRQGLNItHAYs2LaUBizYtHGbFm0aOM2LNi2nAYzY0cfd5TJ5dlyeX0Mpk0plrdDIpaZRKLWeUSeUSi1nlEmlEopWaUSaRSilBIpNo0UrNItokW04zSjNi0UBg2jFo4DBtGLaUZsWbFo4DFJsWjgMWbFtOM2LNi0cBizYtpQGM2NHH32UyeXZcnltZ5TLRKJRazSmTSiU3WaUSaUbSlZsUtEilFKDFJpRKOVmkUtGCUUBIpaMGjgJFm0bTjNIs2LRQGLNItpwGDaMGjgMWbFo4DFmxbTjNizYtHAYs2LRQGE2Npx6FlMnlMuTymhlMnlEotZ5RJpRKbKzSKWiRSjlDIpNi2lKDFJpFo4CRSbFooDFmxaOM2LaMG04DFmxaOAxZsWjgMG0YNpwGLNg0cBizYtpQGLNi06RmxZsWigMWbG049EyiWmUS4vJazSiTSiUUrNIpaMW0pQSKTYtFKCRZpFo4CRZsW04zSLNi0cBizYtHAYNowaOAxZxbTgMWTFo4DFmxbTgMGbFo4DFkxaOAxZsW04DGTFo4DGbBtKPScok0olxeQ1mlEmkUopQSLNi0coJFmxbTgJBLRg0UBik2LRxmxZsW10gMWbBo4DFmxaOM2jJi2nAYs2DRwGLNi2nAYM2LRwGLJi0cFgzYtpwGDNi0cBjNjRx6WkUtEilxeOlBizYtpSgxZsWjjNizYtpwGDNi0cBg2jBo4DFmwbXSAxZsWjgMGbFo4DFkxbTgMWbBo4LBmxbTgMGbFo4DBmxaOCwZsG04LBmwadILGTGij09ik2LcXjYzYs2LRwGLJi2nAYM2LRwGLJi2nAYs2DTpAYs2DacBizYNHBYM2DTpBYM2DacFiyYtHAYsmLRwWDNg2nBYM2DRwWDNi2nAYsmLRwIsmLRx6iwZsG4vGQWDNg0cFgzYNrpBYM2DRwWDNg2nBYM2DTpBYM2DacFgzYNHBYM2DRwWDNg2nBYsmLTpBYM2DRwWDNg2nBYM2DRwWLJi2nAYsmLRwGLJi0cf/9k=");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  
+}
+h1{
+  font-size: 38px;
+ 
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 249, 249);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit] {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+   cursor: pointer; 
+  border-radius: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 22px;
+} 
+select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+  background-color: antiquewhite;
+  border-style: hidden;
+  border-radius: 15px;
+  padding:18px;
+  text-align: center;
+  box-shadow: 0 8px 6px -6px black;
+  
+ 
+  
+}
+@media screen and (max-width:900px){
+
+    .main-contianer{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-evenly; 
+      
+    }
+  
+  } 

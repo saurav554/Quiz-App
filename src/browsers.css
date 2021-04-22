@@ -1,0 +1,152 @@
+@media only screen and (min-device-width: 601px) {
+    .menu {
+        float: left;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 128, 1));
+        width: 15vw;
+        height: 100vh;
+        padding: 0vw;
+        position: fixed;
+        top: 0vh;
+        left: 0vw;
+    }
+    .views {
+        color: white;
+        border-radius: 0px;
+        background: linear-gradient(to right, rgba(0, 0, 128, 1), rgba(11, 33, 227, 1));
+        width: 85vw;
+        height: 100vh;
+        position: absolute;
+        right: 0vw;
+        top: 0vh;
+    }
+    .logincls {
+        color: white;
+        border-radius: 0px;
+        background: linear-gradient(to left, rgba(0, 213, 238, 1), rgba(11, 33, 227, 1));
+        width: 85vw;
+        height: 100vh;
+        position: absolute;
+        right: 7.5vw;
+        top: 0vh;
+    }
+    .usernamecls {
+        color: white;
+        font-size: 2vh;
+    }
+    .main a {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-left: 1vw;
+        margin-top: 2vh;
+        font-size: 2vh;
+    }
+    .counter {
+        position: absolute;
+        top: 5vh;
+        right: 5vw;
+        text-align: center;
+        box-shadow: 0vh 0vh 5vh rgba(0, 255, 255, 1);
+        padding: 2.5vh;
+        margin: 0vh;
+        border-radius: 5vh;
+        border: 0.5vh solid rgba(0, 0, 128, 1);
+        font-size: 2vh;
+    }
+    .questionsdiv {
+        position: absolute;
+        top: 5vh;
+        left: 5vw;
+        box-shadow: 0vh 0vh 5vh rgba(0, 255, 255, 1);
+        border: 0.5vh solid rgba(0, 0, 128, 1);
+        padding: 2.5vh;
+        font-size: 2vh;
+        min-height: 50vh;
+        max-height: 85vh;
+        overflow-y: auto;
+        scrollbar-width: none;
+        width: 40vw;
+    }
+    ::-webkit-scrollbar {
+        width: 0vw;
+        height: 0vh;
+        background-color: transparent;
+    }
+    .options {
+        cursor: pointer;
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 3px;
+        margin: 10px;
+    }
+    .options:hover {
+        cursor: pointer;
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;
+        background: linear-gradient(to right, #74ebd5, #acb6e5) !important;
+    }
+    .selected {
+        cursor: pointer;
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 3px;
+        margin: 10px;
+        background: linear-gradient(to right, #74ebd5, #acb6e5) !important;
+    }
+    .btns {
+        text-align: center;
+        float: left;
+    }
+    .btns button {
+        width: 15vh;
+        padding: 1vh;
+        border-radius: 1vh;
+        border: 0vh;
+        cursor: pointer;
+        margin: 2vh 5vw;
+        font-size: larger;
+        text-transform: uppercase;
+    }
+    .btns button:hover {
+        color: white;
+        box-shadow: 0vh 0vh 5vh rgba(0, 255, 255, 1);
+    }
+    .listOfNumbers {
+        position: absolute;
+        bottom: 15vh;
+        right: 5vw;
+        width: 15vw;
+        text-align: center;
+        box-shadow: 0vh 0vh 5vh rgba(0, 255, 255, 1);
+        padding: 2.5vh;
+        margin: 0vh;
+        border-radius: 5vh;
+        border: 0.5vh solid rgba(0, 0, 128, 1);
+        font-size: 2vh;
+    }
+    .button {
+        width: 3vw;
+        height: 5vh;
+        margin: 1vh;
+        border: 0vh;
+        border-radius: 1vh;
+        font-weight: bold;
+        font-size: 2vh;
+        cursor: pointer;
+    }
+    .button:hover {
+        color: white;
+        box-shadow: 0vh 0vh 5vh rgba(0, 255, 255, 1);
+    }
+    .scorediv {
+        box-shadow: 0vh 0vh 5vh rgba(0, 255, 255, 1);
+        border: 0.5vh solid rgba(0, 0, 128, 1);
+    }
+    .result {
+        box-shadow: 0vh 0vh 5vh rgba(0, 255, 255, 1);
+        border: 0.7vh solid rgba(0, 0, 128, 1);
+    }
+}

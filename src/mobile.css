@@ -1,0 +1,141 @@
+@media only screen and (max-device-width: 600px) {
+    .menu {
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 128, 1));
+        width: 100vw;
+        height: 8vh;
+        padding: 0vw;
+        position: fixed;
+        top: 0vh;
+        left: 0vw;
+        right: 0vw;
+    }
+    .views {
+        color: white;
+        border-radius: 0px;
+        background: linear-gradient(to right, rgba(0, 0, 128, 1), rgba(11, 33, 227, 1));
+        width: 100vw;
+        height: 92vh;
+        position: absolute;
+        right: 0vw;
+        top: 8vh;
+        left: 0vw;
+    }
+    .logincls {
+        color: white;
+        border-radius: 0px;
+        background: linear-gradient(to left, rgba(0, 213, 238, 1), rgba(11, 33, 227, 1));
+        width: 85vw;
+        height: 100vh;
+        position: absolute;
+        right: 7.5vw;
+        top: 0vh;
+    }
+    .usernamecls {
+        color: white;
+        font-size: 2vh;
+    }
+    .main a {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-left: 1vw;
+        margin-top: 2vh;
+        font-size: 2vh;
+    }
+    .counter {
+        position: absolute;
+        top: 2vh;
+        right: 5vw;
+        left: 5vw;
+        text-align: center;
+        /* box-shadow: 0vh 0vh 5vh rgba(0, 255, 255, 1); */
+        /* padding: 2.5vh; */
+        margin: 0vh;
+        /* border-radius: 5vh; */
+        /* border: 0.5vh solid rgba(0, 0, 128, 1); */
+        font-size: 2vh;
+    }
+    .questionsdiv {
+        position: absolute;
+        top: 20vh;
+        left: 0vw;
+        right: 0vw;
+        box-shadow: 0vh 0vh 5vh rgba(0, 255, 255, 1);
+        /* border: 0.5vh solid rgba(0, 0, 128, 1); */
+        padding: 2.5vh;
+        font-size: 1vh;
+        height: 36vh;
+        overflow-y: auto;
+        scrollbar-width: none;
+        width: 90vw;
+    }
+    .options {
+        cursor: pointer;
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 3px;
+        margin: 10px;
+    }
+    .options:hover {
+        cursor: pointer;
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;
+        background: linear-gradient(to right, #74ebd5, #acb6e5) !important;
+    }
+    .selected {
+        cursor: pointer;
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 3px;
+        margin: 10px;
+        background: linear-gradient(to right, #74ebd5, #acb6e5) !important;
+    }
+    .btns {
+        text-align: center;
+        float: left;
+    }
+    .btns button {
+        width: 15vh;
+        padding: 1vh;
+        border-radius: 1vh;
+        border: 0vh;
+        cursor: pointer;
+        margin: 2vh 8vw;
+        font-size: larger;
+        text-transform: uppercase;
+    }
+    .btns button:hover {
+        color: white;
+        box-shadow: 0vh 0vh 5vh rgba(0, 255, 255, 1);
+    }
+    .listOfNumbers {
+        position: absolute;
+        bottom: 1vh;
+        right: 0vw;
+        left: 0vw;
+        width: 100vw;
+        text-align: center;
+        box-shadow: 0vh 0vh 5vh rgba(0, 255, 255, 1);
+        /* padding: 2.5vh; */
+        margin: 0vh;
+        border-radius: 0vh;
+        /* border: 0.5vh solid rgba(0, 0, 128, 1); */
+    }
+    .button {
+        width: 10vw;
+        height: 5vh;
+        margin: 1vh;
+        border: 0vh;
+        border-radius: 1vh;
+        font-weight: bold;
+        font-size: 2vh;
+        cursor: pointer;
+    }
+    .button:hover {
+        color: white;
+        box-shadow: 0vh 0vh 5vh rgba(0, 255, 255, 1);
+    }
+}
